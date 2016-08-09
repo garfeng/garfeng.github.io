@@ -18,7 +18,7 @@
 边缘偏移：没有光影的地方">
 <meta property="og:type" content="article">
 <meta property="og:title" content="给rpgmaker的地图生成光影">
-<meta property="og:url" content="http://garfeng.github.io/2016-06-19/Auto-Shadow/index.html">
+<meta property="og:url" content="http://127.0.0.1:4000/2016-06-19/Auto-Shadow/index.html">
 <meta property="og:site_name" content="Code bits">
 <meta property="og:description" content="Github：shadow
 原理见：让地图加分的方法！室内地图光影+无限图层
@@ -34,7 +34,7 @@
 <meta property="og:image" content="https://raw.githubusercontent.com/garfeng/shadow/master/examples/shadowAndLight.png">
 <meta property="og:image" content="https://raw.githubusercontent.com/garfeng/shadow/master/examples/onlyWithShadow.png">
 <meta property="og:image" content="https://raw.githubusercontent.com/garfeng/shadow/master/examples/onlyWithLight.png">
-<meta property="og:updated_time" content="2016-08-08T11:39:17.878Z">
+<meta property="og:updated_time" content="2016-08-09T08:15:49.113Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="给rpgmaker的地图生成光影">
 <meta name="twitter:description" content="Github：shadow
@@ -52,8 +52,6 @@
     <link rel="alternative" href="/atom.xml" title="Code bits" type="application/atom+xml">
   
   
-    <link rel="icon" href="//favicon.png">
-  
   <link rel="stylesheet" href="/css/style.css">
 </head>
 
@@ -65,7 +63,7 @@
 	<header id="header" class="inner">
 		<a href="/" class="profilepic">
 			
-			<img lazy-src="nullhttps://avatars2.githubusercontent.com/u/19792314" class="js-avatar">
+			<img lazy-src="https://avatars2.githubusercontent.com/u/19792314" class="js-avatar">
 			
 		</a>
 
@@ -151,7 +149,7 @@
 		<header id="header" class="inner">
 			<div class="profilepic">
 				
-					<img lazy-src="nullhttps://avatars2.githubusercontent.com/u/19792314" class="js-avatar">
+					<img lazy-src="https://avatars2.githubusercontent.com/u/19792314" class="js-avatar">
 				
 			</div>
 			<hgroup>
@@ -229,6 +227,8 @@
 <li><strong>原始图片</strong>：用于给光生成纹路，为了避免像是蒙一层白（可以不设置）</li>
 <li><strong>光源设置</strong>：点光源中心的坐标，用格数来确定，比如在左上角顶点有一个宽1格，高2格的窗子，则需要把这里设置为</li>
 </ul>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">X: 0.5</div><div class="line">Y: 1</div></pre></td></tr></table></figure>
+<figure class="highlight c"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">int</span> i = <span class="number">0</span>;</div><div class="line"><span class="keyword">int</span> b = <span class="number">1</span>;</div><div class="line"></div><div class="line"><span class="keyword">for</span>(i=<span class="number">0</span>;i&lt;<span class="number">10</span>;i++)&#123;</div><div class="line">	<span class="built_in">printf</span>(<span class="string">"aaa"</span>);</div><div class="line">&#125;</div></pre></td></tr></table></figure>
 <ul>
 <li><p><strong>墙壁高度</strong>：墙壁底部距离图片上边缘的距离，比如有1格墙顶，2格墙壁，这里设置为3。</p>
 </li>

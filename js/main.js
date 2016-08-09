@@ -1,3 +1,18 @@
+var yiliaConfig = {
+	fancybox: true,
+	mathjax: true,
+	animate: true,
+	isHome: false,
+	isPost: true,
+	isArchive: false,
+	isTag: false,
+	isCategory: false,
+	open_in_new: false,
+	root: ""
+}
+
+console.log(yiliaConfig);
+
 require([], function (){
 
 	var isMobileInit = false;
